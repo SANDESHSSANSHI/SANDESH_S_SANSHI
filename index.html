@@ -90,7 +90,7 @@
 
                 <div class="about__container bd-grid">
                     <div class="about__img">
-                        <img src="assets/img/s.jpeg" alt="">
+                        <img src="assets/img/sss_pic.jpg" alt="">
                     </div>
                     
                     <div>
@@ -98,7 +98,7 @@
                         <p class="about__text">Passionate about crafting impactful solutions through AI/ML and modern web technologies. Skilled in machine learning, full-stack development, and user-focused design, 
                             I excel at transforming ideas into innovative applications. Driven by a commitment to excellence, 
                             I aim to make meaningful contributions to the tech industry.     <br>      
-                        <br><br>    <a href="assets/cv/sandesh_cv.pdf" download class="button">Download CV</a></p>
+                        <br><br>    <a href="assets/cv/sandesh_s_cv.pdf" download class="button">Download CV</a></p>
                         </div>                                 
                 </div>            
 
@@ -436,7 +436,12 @@
         </div>
     </div>
 
-    <p class="footer__copy">&#169; 2025 Sandesh S Sanshi. All rights reserved.</p>
+    <p class="footer__copy">&#169; <span id="year"></span> Sandesh S Sanshi. All rights reserved.</p>
+    <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+
+    <!-- <p class="footer__copy">&#169; 2025 Sandesh S Sanshi. All rights reserved.</p> -->
 </footer>
 
 
